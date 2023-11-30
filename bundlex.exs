@@ -15,7 +15,8 @@ defmodule Membrane.Agora.BundlexProject do
   def project do
     case get_target() do
       %{os: "linux"} ->
-        System.shell("./install.sh")
+        # System.shell("./install.sh")
+        IO.puts("Using local Agora's Server Gateway SDK")
       other_target ->
         IO.warn("Agora's Server Gateway SDK is unavailable for this target: #{inspect(other_target)}")
     end

@@ -180,6 +180,6 @@ $RECYCLE.BIN/
 
 *.dat
 crash_context*
-agora_sdk/
+# agora_sdk/
 .vscode/
 .devcontainer/
